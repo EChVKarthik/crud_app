@@ -1,0 +1,10 @@
+<form method="POST" action='/'>{%csrf_token%}
+
+    Enter your ID : <input type="text" name="id" value="{{obj.id}}"><br>
+    Enter your Name : <input type="text" name="name" value="{{obj.name}}"><br>
+    
+    <button value="insert" name="sel">Add</button>
+    <button value="update" name="sel">Update</button>
+    <button value="delete" name="sel">Delete</button>
+    <button value="retrive" name="sel">Retrive</button>
+</form>
