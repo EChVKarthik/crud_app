@@ -19,7 +19,7 @@ class Testing(TestCase):
 
     def test_retrive(self):
         obj = Name.objects.get(id=2)
-        self.assertEqual(obj.name, "js")
+        self.assertEqual(obj.name, "sairakesh")
         print("\n User exist")
     
     def test_upate(self):
